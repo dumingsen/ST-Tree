@@ -1,0 +1,33 @@
+%The data was generated with healthy participants simulating the
+%class activities of performed. Data was collected from 6
+%participants using a tri-axial accelerometer on the dominant wrist
+%whilst conducting 4 different activities. The four tasks, each of
+%different length, are: WALKING includes different paces and
+%gestures: walking slowing while gesturing, walking slowly, walking
+%normal and walking fast, each of 30 seconds long. RUNNING includes
+%running a 40 meters long corridor. SAWING with a saw and during 30
+%seconds. SEIZURE MIMICKING seated, with 5-6 sec before and 30 sec
+%after the mimicked seizure. The seizure was 30 sec long.
+%
+%Each participant performs each activity 10 times at least. The
+mimicked seizures were trained and controlled, following a protocol
+defined by an medical expert. All the activities were carried out
+indoors, either inside an office or in the corridor around it.
+
+The sampling frequency was 16 Hz. Some activities lasted about 30
+seconds, others are 1 minute long, others are about 2 minutes. Our
+standard practice for the archive is to truncate data to the length
+of the shortest series retained. We removed prefix and suffix flat
+series and truncated to the shortest series (20 measurements,
+approx 13 seconds), taking a random interval of activity for series
+longer than the minimum. A single case
+from the original (ID002 Running 16) was removed because the data
+was not collected correctly. After tidying the data we have a total
+of 275 cases. The train test split is divided into three
+participants for training, three for testing, with the IDs removed
+for consistency with the rest of the archive.
+
+Relevant Papers:
+[1] Villar JR, Vergara P, Menéndez M, de la Cal E, González VM, Sedano J.
+Generalized Models for the Classification of Abnormal Movements in Daily Life and its Applicability to Epilepsy Convulsion Recognition. Int
+J Neural Syst. 2016 Sep;26(6) 2016
