@@ -1,7 +1,9 @@
 
 # ST-Tree with Interpretability for Multivariate Time Series Classification
 
-This repository contains the code for the paper "ST-Tree with Interpretability for Multivariate Time Series Classification", which is currently under review.
+Still updating.
+
+This repository contains the code for the paper "ST-Tree with Interpretability for Multivariate Time Series Classification", which is accepted by NN. You can find it in arxiv (https://arxiv.org/abs/2411.11620).
 
 The main components of this project are:
 
